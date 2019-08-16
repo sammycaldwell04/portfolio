@@ -1,0 +1,16 @@
+.jumbotron{
+    background: url(../Assets/this\ is\ my\ background\ portfolio.jpg) center center;
+    background-size: cover;
+    height: 65vh;
+    text-align: center;
+    padding: 0;
+}
+.jumbotron-background {
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    padding: 80px 20px;
+}
+h1.display-4{
+    color: whitesmoke;
+}
