@@ -1,3 +1,29 @@
 body{
     background-color: #958684;
 }
+
+.interest-images {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interest-images-container {
+    width: 260px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.interest-images > div img {
+    height: 250px;
+    width: 250px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.interest-captions {
+    font-style: italic;
+    text-align: center;
+}

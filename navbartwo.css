@@ -1,0 +1,15 @@
+nav.navbar-color{
+    background-color: #233237 !important;
+}
+
+nav.navbar-color > * {
+    color: whitesmoke !important;
+}
+
+.dropdown-menu{
+    background-color: #233237;
+}
+
+.dropdown-item{
+    color: whitesmoke;
+}

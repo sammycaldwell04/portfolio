@@ -1,153 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    
-    
-    <!--BOOTSTRAP LINK-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Portfolio</title>
+
+  <!--BOOTSTRAP LINK-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- CSS FILES -->
-
-<link  rel="stylesheet" href="css/main.css">
-
-
-
+  <!-- CSS FILES -->
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body backgroundcolor>
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light navbar-color">
-            <a class="navbar-brand" href="#">Samantha Caldwell</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   Projects
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Static Layout</a>
-                    <a class="dropdown-item" href="#">CSS Creature</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Api Project</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Photography</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-               
-              </form>
-            </div>
-          </nav>
 
-        <!--HEADER-->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="jumbotron-background">
-          <div class="container"><h1 class="display-4" >  <em>Samantha Caldwell</em></h1>
-            <p class="lead"> <em></em></p>
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light navbar-color">
+    <a class="navbar-brand" href="#">Samantha Caldwell</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" target="_blank"
+              href="https://sammycaldwell04.github.io/StaticLayoutAug2019/">Static Layout</a>
+            <a class="dropdown-item" target="_blank" href="https://codepen.io/sammycaldwell04/pen/BaBzNzK">CSS
+              Creature</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" target="_blank" href="https://sammycaldwell04.github.io/api-project/">Api
+              Project</a>
           </div>
-          </div>
-        </div>
-
-              <!--ABOUT ME-->
-              <div id="about">
-                  <div class="container">
-                    <div class="row"> <div class="col-sm-12"> 
-                      <p class= "quote"> <em>There Are No Limits To What You Can Accomplish, Except The Limits You Place On Your Own Think.
-                        -Brian Tracy</em>
-                      </p>
-                    </div>
-                  </div>
-
-                      <!-- <div class="row">
-                          <div class="col-sm-4">
-                              <p></p>
-                          </div>
-                          <div class="col-sm-4">
-                                <p></p>
-                            </div>
-                            <div class="col-sm-4">
-                                    <p></p>
-                                </div> -->
-                      </div>
-                  </div>
-              </div>
-
-              <div class="projects">
-                <div class="cssCreature">
-                  <img src="./Assets/css creature.png">
-                  
-                  </div>
-                </div>
-              </div>
-              
-              
-              
-              
-              
-              <!--CONTACT SECTION-->
-              <div id="contact">
-                  <div class="container">
-                    <h2 class ="text-center text-uppercase"><em>Contact Me</em></h2>
-                    <br>
-                    <div class="row">
-                    <div class="col-12">
-              <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
-                <fieldset id="fs-frm-inputs">
-
-                <div class="form-group">
-                  <label for="full-name">Full Name</label>
-                  <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                  </div>
-
-                  <div class="form-group">
-                  <label for="sammycaldwell04@gmail.com">Email Address</label>
-                  <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                </div>
-                    
-                    <div class="form-group">     
-                  <label for="message">Message</label>
-                  <textarea class="form-contol" rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                
-                
-                </fieldset>
-               <!-- <input type="submit" value="Submit"> -->
-               <div class="text-center">
-               <button type="button" class="btn btn-outline-info">Send Message</button>
-               </div>
-            </div>
-        </div>
-            </form>
-            <br>
-            <br>
-        </div>
+        </li>
     </div>
-</div>
-    <script src="js/main.js"></script>
+  </nav>
 
-    <!--bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--HEADER-->
+  <div class="jumbotron jumbotron-fluid homeheader">
+    <div class="jumbotron-background">
+      <div class="container">
+        <h1 class="display-4"> <em>Samantha Caldwell</em></h1>
+        <p class="lead"> <em></em></p>
+      </div>
+    </div>
+  </div>
+
+  <!--ABOUT ME-->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="quote"> <em>"It Doesn't Matter Where You Are Coming From. All That Matters Is Where You Are Going."
+              -Brian Tracy</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects">
+    <a target="_blank" href="https://codepen.io/sammycaldwell04/pen/BaBzNzK"><img src="./Assets/css creature.png"></a>
+    <a target="_blank" href="https://sammycaldwell04.github.io/StaticLayoutAug2019/"><img
+        src="./Assets/Netflix.png"></a>
+    <a target="_blank" href="https://sammycaldwell04.github.io/api-project/"><img
+        src="Assets/Screen Shot 2019-08-19 at 10.11.28 AM.png"></a>
+  </div>
+
+  <!--CONTACT SECTION-->
+  <div id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase"><em>Contact Me</em></h2>
+      <br>
+      <div class="row">
+        <div class="col-12">
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+            action="https://formspree.io/sammycaldwell04@gmail.com" method="post">
+            <fieldset id="fs-frm-inputs">
+
+              <div class="form-group">
+                <label for="full-name"><em>Full Name</em></label>
+                <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="sammycaldwell04@gmail.com"><em>Email Address</em></label>
+                <input class="form-control" type="email" name="_replyto" id="email-address"
+                  placeholder="email@domain.tld" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message"><em>Message</em></label>
+                <textarea class="form-contol" rows="5" name="message" id="message" required></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              </div>
+
+
+            </fieldset>
+            <!-- <input type="submit" value="Submit"> -->
+            <div class="text-center">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+        </div>
+      </div>
+      </form>
+      <br>
+      <br>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+
+  <!--bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

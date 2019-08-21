@@ -2,14 +2,11 @@
     background-color: #233237;
     color: whitesmoke;
     border-color: #233237;
+    outline: none;
 }
 
 .btn:hover {
     background-color: #233237;
     border-color: #233237;
-}
-
-.btn:active {
-    background-color: #233237;
-    border-color: #233237;
+    color: whitesmoke;
 }
